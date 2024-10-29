@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+<body class="maincontainer">
+    <header class="header">
+        <button class="newbookbtn">ADD NEW BOOK</button>
+        <form action="#" method="post" class="formcontainer formdisplay">
+            <fieldset class="form">
+                <h1>Add Book to Library</h1>
+                <div class="titlegroup">
+                    <label for="title">Title (required)</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div class="authorgroup">
+                    <label for="author">Author (required)</label>
+                    <input type="text" id="author" name="author" requred>
+                </div>
+                <div class="pagesgroup">
+                    <label for="pages">Number of Pages (required)</label>
+                    <input type="number" id="pages" name="pages" required>
+                </div>
+                <div class="readgroup">
+                    <input type="checkbox" id="read">
+                    <label for="read">Have read</label>
+                </div>
+                <div class="buttongroup">
+                    <button class="cancelbtn">Cancel</button>
+                    <button class="submitbtn">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </header>
+    <main class="bookcontainer">
+        <!-- <div class="book">
+            <h2>The Hobbit</h2>
+            <p>J.R.R. Tolkien</p>
+            <p>300 Pages</p>
+            <div class="bookbtn">
+                <button class="readbtn">Read</button>
+                <button class="removebtn">Remove</button>
+            </div>
+        </div>
+        <div class="book">
+            <h2>The Hobbit</h2>
+            <p>J.R.R. Tolkien</p>
+            <p>300 Pages</p>
+            <div class="bookbtn">
+                <button class="readbtn">Read</button>
+                <button class="removebtn">Remove</button>
+            </div>
+        </div> -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
